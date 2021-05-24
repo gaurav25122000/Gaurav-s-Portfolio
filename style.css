@@ -709,6 +709,58 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+.Social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.social-footer {
+  display: flex;
+  background: #e3edf7;
+  height: 35px;
+  width: 35px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+
+.social-footer .socials {
+  font-size: 20px;
+  color: #000;
+  transition: transform 0.5s;
+}
+
+.social-footer:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px -1px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 0, 0, 0.1);
+  transform: translateY(2px);
+}
+.social-footer:hover .socials {
+  transform: scale(0.9);
+}
+.social-footer:hover .fa-facebook {
+  color: #3b5998;
+}
+.social-footer:hover .fa-twitter {
+  color: #00acee;
+}
+.social-footer:hover .fa-whatsapp {
+  color: #4fce5d;
+}
+.social-footer:hover .fa-instagram {
+  color: #f14843;
+}
+.social-footer:hover .fa-youtube {
+  color: #f00;
+}
+
 /* responsive media query start */
 
 @media (max-width: 1104px) {
