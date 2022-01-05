@@ -761,6 +761,37 @@ footer span a:hover {
   color: #f00;
 }
 
+/* Portfolio Gallery*/
+.max-width-gallery {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin-left: 13rem;
+  margin-right: auto;
+}
+.gallery-bg {
+  background: url("images/banner.png");
+}
+.portfolio1 {
+  display: flex;
+  position: relative;
+}
+img {
+  width: 60%;
+  height: 50%;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.gallery-h2 {
+  margin-top: 2rem;
+  margin-left: 15rem;
+}
+.gallery-center {
+  display: flex;
+  margin-left: 21rem;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
 /* responsive media query start */
 
 @media (max-width: 1104px) {
